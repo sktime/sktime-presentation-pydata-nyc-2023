@@ -1,19 +1,18 @@
 ![](images/team.jpg)
 
-Welcome to the sktime tutorial at ODSC Europe 2023
-==================================================
+Welcome to the sktime presentation for PyData NYC 2023
+======================================================
 
-This tutorial is about [sktime] - a unified framework for machine learning with time series. sktime contains alrgoithms and tools for building, applying, evaluating modular pipelines and composites for a variety of time series learning tasks, including forecasting, classification, regression.
+This presentation is about forecasting with sktime.  It discusses how different types of forecasting techniques can be used, and best approaches for different methods.  Both classical and contemporary techniques can successfully be used in practice, but it is important to understand the tradeoffs inherent to using one technique vs. the other.  `sktime` provides a unified interface to use a variety of forecasting methods in composable forecasting pipelines for different types of problems:  univariate, multivariate, panel and hierarchical.  This presentation is designed to provide best practices and tips on how to quickly get up to speed in this exciting area of data science that's undergoing rapid progress.
 
 `sktime` is easily extensible by anyone, and interoperable with the pydata/numfocus stack.
 
-This is an introductory `sktime` half-day tutorial with:
+This presentation has the following parts:
 
-* a general introduction to `sktime`
-* forecasting with `sktime` - uni/multivariate, hierarchical/global
-* feature extraction, transformation pipelines, parameter tuning, autoML
-* engineering topics: interfaces, estimator and dependency management, writing `sktime` compatible 3rd party estimators
-* deploying `sktime` in production using `mlflow` with the `mlflavours` plugin
+* a general introduction to time series and forecasting
+* an overview of what sktime is, and how it makes forecasting easier
+* common classical forecasting techniques, and how they're commonly used
+* use cases for machine learning in forecasting, and data processing steps necessary to make them useful
 
 [sktime]: https://sktime.net
 
@@ -21,9 +20,9 @@ This is an introductory `sktime` half-day tutorial with:
 
 ## :rocket: How to get started
 
-In the tutorial, we will move through notebooks section by section.
+The slides for this presentation are made from the notebook titled `forecasting.ipynb` 
 
-You have different options how to run the tutorial notebooks:
+You have different options how to run the accompanying notebook:
 
 * Run the notebooks in the cloud on [Binder] - for this you don't have to install anything!
 * Run the notebooks on your machine. [Clone] this repository, get [conda], install the required packages (`sktime`, `seaborn`, `jupyter`) in an environment, and open the notebooks with that environment. For detail instructions, see below. For troubleshooting, see sktime's more detailed [installation instructions].
@@ -38,14 +37,13 @@ Please let us know on the [sktime discord](https://discord.com/invite/54ACzaFsn7
 
 ## :bulb: Description
 
-This tutorial presents [sktime] - a unified framework for machine learning with time series. sktime covers multiple time series learning problems, including time series transformation, classification and forecasting, among others.`sktime` allows you to easily apply an algorithm for one task to solve another (e.g. a scikit-learn regressor to solve a forecasting problem). In the tutorial, you will learn about how you can identify these problems, what their key differences are and how they are related.
+This presentation is about forecasting with classical and machine learning methods, and how they can be used successfully in different settings.  It's also about how to implement different forecasting techniques with `sktime`, a unified interface for building end-to-end time series solutions.  Forecasting is a domain that's undergone rapid improvements in both technique and theory, and its challenges make it a difficult domain to master.  
 
-`sktime` provides various time series algorithms and modular composition tools for pipelining, ensembling and tuning.
-`sktime` also provides API compatible interfaces to many popular libraries, such as `statsmodels`, `prophet`, `statsforecast`, `tslearn`, `tsfresh`, etc,
-which can be readily combined using `sktime` composition patterns.
+What makes forecasting a unique problem for machine learning algorithms?  
+Under what circumstances would you expect an ML algorithm to outperform a traditional forecasting algorithm?  
+What are common challenges for successfully building forecasting pipelines with complicated datasets?
 
-In this tutorial, you will learn how to use, combine, tune and evaluate different algorithms on real-world data sets.
-The tutorial consists of step-by-step using Jupyter Notebooks.
+This presentation is designed to answer these questions in an engaging and informative style that will make it easy to properly implement forecasting solutions in a way that's powerful and effective.
 
 `sktime` not just a package, but also an active community which aims to be welcoming to new joiners.
 We invite anyone to get involved as a developer, user, supporter (or any combination of these).
@@ -77,26 +75,26 @@ To run the notebooks locally, you will need:
 
 To clone the repository locally:
 
-`git clone https://github.com/sktime/sktime-tutorial-ODSC-Europe-2023.git`
+`git clone https://github.com/sktime/sktime-presentation-pydata-nyc-2023.git`
 
 ### Using conda env
 
 1. Create a python virtual environment:
-`conda create -y -n odsc_sktime python=3.9`
+`conda create -y -n pydata_nyc_sktime python=3.9`
 2. Install required packages:
-`conda install -y -n odsc_sktime pip sktime seaborn jupyter pmdarima statsmodels`
+`conda install -y -n pydata_nyc_sktime pip sktime seaborn jupyter pmdarima statsmodels`
 3. Activate your environment:
-`conda activate odsc_sktime`
+`conda activate pydata_nyc_sktime
 4. If using jupyter: make the environment available in jupyter:
-`python -m ipykernel install --user --name=odsc_sktime`
+`python -m ipykernel install --user --name=pydata_nyc_sktime`
 
 ### Using python venv
 
 1. Create a python virtual environment:
-`python -m venv odsc_sktime`
+`python -m venv pydata_nyc_sktime`
 2. Activate your environment:
-`source odsc_sktime/bin/activate`
+`source pydata_nyc_sktime/bin/activate`
 3. Install the requirements:
 `pip install sktime seaborn jupyter pmdarima statsmodels`
 4. If using jupyter: make the environment available in jupyter:
-`python -m ipykernel install --user --name=odsc_sktime`
+`python -m ipykernel install --user --name=pydata_nyc_sktime`
