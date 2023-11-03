@@ -3,16 +3,20 @@
 Welcome to the sktime presentation for PyData NYC 2023
 ======================================================
 
-This presentation is about forecasting with sktime.  It discusses how different types of forecasting techniques can be used, and best approaches for different methods.  Both classical and contemporary techniques can successfully be used in practice, but it is important to understand the tradeoffs inherent to using one technique vs. the other.  `sktime` provides a unified interface to use a variety of forecasting methods in composable forecasting pipelines for different types of problems:  univariate, multivariate, panel and hierarchical.  This presentation is designed to provide best practices and tips on how to quickly get up to speed in this exciting area of data science that's undergoing rapid progress.
+This presentation is about forecasting with `sktime.`
+
+It discusses different types of forecasting techniques: classical and contemporary techniques can successfully be used in practice, but it is important to understand the tradeoffs inherent to using one technique vs the other.
+
+`sktime` provides a unified interface to use a variety of forecasting methods in composable forecasting pipelines for different types of problems: univariate, multivariate, panel and hierarchical.
 
 `sktime` is easily extensible by anyone, and interoperable with the pydata/numfocus stack.
 
 This presentation has the following parts:
 
 * a general introduction to time series and forecasting
-* an overview of what sktime is, and how it makes forecasting easier
-* common classical forecasting techniques, and how they're commonly used
-* use cases for machine learning in forecasting, and data processing steps necessary to make them useful
+* an overview of what `sktime` is, and how it makes using different forecasting algorithms easier
+* common classical forecasting techniques, and how they are commonly used
+* machine learning for forecasting, and common data processing steps to make them useful (reduction, pipelines)
 
 [sktime]: https://sktime.net
 
