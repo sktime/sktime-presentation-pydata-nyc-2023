@@ -56,7 +56,9 @@ We invite anyone to get involved as a developer, user, supporter (or any combina
 
 ## :movie_camera: Other Tutorials:
 
-- [Pydata Prague 2023 - General sktime introduction, half-day workshop](https://github.com/sktime/sktime-workshop-pydata-prague-2023)
+- [Europython 2023 - General sktime introduction, half-day workshop](https://github.com/sktime/sktime-tutorial-europython-2023)
+
+- [Pydata Prague 2023 - Forecasting, Advanced Pipelines, Benchmarking](https://github.com/sktime/sktime-workshop-pydata-prague-2023)
 
 - [ODSC Europe 2023 - Forecasting, Pipelines, and ML Engineering](https://github.com/sktime/sktime-tutorial-ODSC-Europe-2023/tree/main)
 
