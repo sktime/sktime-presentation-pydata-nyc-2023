@@ -3,20 +3,26 @@
 Welcome to the sktime presentation for PyData NYC 2023
 ======================================================
 
-This presentation is about forecasting with sktime.  It discusses how different types of forecasting techniques can be used, and best approaches for different methods.  Both classical and contemporary techniques can successfully be used in practice, but it is important to understand the tradeoffs inherent to using one technique vs. the other.  `sktime` provides a unified interface to use a variety of forecasting methods in composable forecasting pipelines for different types of problems:  univariate, multivariate, panel and hierarchical.  This presentation is designed to provide best practices and tips on how to quickly get up to speed in this exciting area of data science that's undergoing rapid progress.
+This presentation is about forecasting with `sktime.`
+
+It discusses different types of forecasting techniques: classical and contemporary techniques can successfully be used in practice, but it is important to understand the tradeoffs inherent to using one technique vs the other.
+
+`sktime` provides a unified interface to use a variety of forecasting methods in composable forecasting pipelines for different types of problems: univariate, multivariate, panel and hierarchical.
 
 `sktime` is easily extensible by anyone, and interoperable with the pydata/numfocus stack.
 
 This presentation has the following parts:
 
 * a general introduction to time series and forecasting
-* an overview of what sktime is, and how it makes forecasting easier
-* common classical forecasting techniques, and how they're commonly used
-* use cases for machine learning in forecasting, and data processing steps necessary to make them useful
+* an overview of what `sktime` is, and how it makes using different forecasting algorithms easier
+* common classical forecasting techniques, and how they are commonly used
+* machine learning for forecasting, and common data processing steps to make them useful (reduction, pipelines)
 
 [sktime]: https://sktime.net
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-tutorial-ODSC-Europe-2023/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-presentation-pydata-nyc-2023/main?filepath=notebooks) [![!discord](https://img.shields.io/static/v1?logo=discord&label=discord&message=chat&color=lightgreen)](https://discord.com/invite/54ACzaFsn7) [![!slack](https://img.shields.io/static/v1?logo=linkedin&label=LinkedIn&message=news&color=lightblue)](https://www.linkedin.com/company/scikit-time/)
+
+Also check out our notebooks from the [half-day sktime introduction workshop at pydata Prague 2023!](https://github.com/sktime/sktime-workshop-pydata-prague-2023)
 
 ## :rocket: How to get started
 
@@ -28,7 +34,7 @@ You have different options how to run the accompanying notebook:
 * Run the notebooks on your machine. [Clone] this repository, get [conda], install the required packages (`sktime`, `seaborn`, `jupyter`) in an environment, and open the notebooks with that environment. For detail instructions, see below. For troubleshooting, see sktime's more detailed [installation instructions].
 * or, use python venv, and/or an editable install of this repo as a package. Instructions below.
 
-[Binder]: https://mybinder.org/v2/gh/sktime/sktime-tutorial-pydata-global-2022/main?filepath=notebooks
+[Binder]: https://mybinder.org/v2/gh/sktime/sktime-presentation-pydata-nyc-2023/main?filepath=notebooks
 [clone]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 [conda]: https://docs.conda.io/en/latest/
 [installation instructions]: https://www.sktime.net/en/latest/installation.html
@@ -50,13 +56,22 @@ We invite anyone to get involved as a developer, user, supporter (or any combina
 
 ## :movie_camera: Other Tutorials:
 
+- [Europython 2023 - General sktime introduction, half-day workshop](https://github.com/sktime/sktime-tutorial-europython-2023)
+
+- [PyCon Prague 2023 - Forecasting, Advanced Pipelines, Benchmarking](https://github.com/sktime/sktime-workshop-pydata-prague-2023)
+
+- [Pydata Amsterdam 2023 - Probabilistic prediction, forecasting, evaluation](https://github.com/sktime/sktime-tutorial-pydata-Amsterdam-2023)
+
+- [ODSC Europe 2023 - Forecasting, Pipelines, and ML Engineering](https://github.com/sktime/sktime-tutorial-ODSC-Europe-2023/tree/main)
+
+- [Pydata London 2023 - Time Series Classification, Regression, Distances & Kernels](https://github.com/sktime/sktime-tutorial-pydata-london-2023)
+
 - [Pydata Berlin 2022 - Advanced Forecasting Tutorial](https://www.youtube.com/watch?v=4Rf9euAhjNc)
 
 - [Pydata London 2022 - How to implement your own estimator in sktime](https://www.youtube.com/watch?v=S_3ewcvs_pg)
 
 - [Pydata Global 2022 - Feature extraction, Pipelines, Tuning](https://github.com/sktime/sktime-tutorial-pydata-global-2022)
 
-- [Pydata London 2023 - Time Series Classification, Regression, Distances & Kernels](https://github.com/sktime/sktime-tutorial-pydata-london-2023)
 
 ## :wave: How to contribute
 
