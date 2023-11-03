@@ -16,7 +16,9 @@ This presentation has the following parts:
 
 [sktime]: https://sktime.net
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-tutorial-ODSC-Europe-2023/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sktime/sktime-presentation-pydata-nyc-2023/main
+
+Also check out our notebooks from the [half-day sktime introduction workshop at pydata Prague 2023!](https://github.com/sktime/sktime-workshop-pydata-prague-2023)
 
 ## :rocket: How to get started
 
@@ -50,15 +52,18 @@ We invite anyone to get involved as a developer, user, supporter (or any combina
 
 ## :movie_camera: Other Tutorials:
 
+- [Pydata Prague 2023 - General sktime introduction, half-day workshop](https://github.com/sktime/sktime-workshop-pydata-prague-2023)
+
+- [ODSC Europe 2023 - Forecasting, Pipelines, and ML Engineering](https://github.com/sktime/sktime-tutorial-ODSC-Europe-2023/tree/main)
+
+- [Pydata London 2023 - Time Series Classification, Regression, Distances & Kernels](https://github.com/sktime/sktime-tutorial-pydata-london-2023)
+
 - [Pydata Berlin 2022 - Advanced Forecasting Tutorial](https://www.youtube.com/watch?v=4Rf9euAhjNc)
 
 - [Pydata London 2022 - How to implement your own estimator in sktime](https://www.youtube.com/watch?v=S_3ewcvs_pg)
 
 - [Pydata Global 2022 - Feature extraction, Pipelines, Tuning](https://github.com/sktime/sktime-tutorial-pydata-global-2022)
 
-- [Pydata London 2023 - Time Series Classification, Regression, Distances & Kernels](https://github.com/sktime/sktime-tutorial-pydata-london-2023)
-- [Pydata London 2023 - Time Series Classification, Regression, Distances & Kernels](https://github.com/sktime/sktime-tutorial-pydata-london-2023)
-- [ODSC Europe 2023 - Forecasting, Pipelines, and ML Engineering](https://github.com/sktime/sktime-tutorial-ODSC-Europe-2023/tree/main)
 
 ## :wave: How to contribute
 
